@@ -1,45 +1,50 @@
 Confusion matrix for k=3
-Predicted  BARBUNYA  BOMBAY  CALI  DERMASON  HOROZ  SEKER  SIRA
-Actual                                                         
-BARBUNYA        107       0   263        13    162      1   115
-BOMBAY           24       0    36        30    157      4    25
-CALI              4       0     1       239     75     43   452
-HOROZ             0       0     0       522      1     60    79
-SEKER           143     143   150       113     50    296   159
+          SEKER  BARBUNYA  BOMBAY  CALI  HOROZ  SIRA  DERMASON
+SEKER       438       115       0    39    115   184       163
+BARBUNYA    150       149       1   226     10    49        76
+BOMBAY        0         0     273     2      0     1         0
+CALI          2       197       1   537     70     5         2
+HOROZ        24        49       0    52    596   209        29
+SIRA        159         4       0     1    128   855       139
+DERMASON    142         0       0     0      3    99      1511
 
 Confusion matrix for k=5
-Predicted  BARBUNYA  BOMBAY  CALI  DERMASON  HOROZ  SEKER  SIRA
-Actual                                                         
-BARBUNYA        105       0   268        14    154      4   116
-BOMBAY           24       0    35        32    161      5    19
-CALI              3       0     0       236     73     38   464
-HOROZ             0       0     0       535      0     65    62
-SEKER           143     143   148       145     57    265   153
+          SEKER  BARBUNYA  BOMBAY  CALI  HOROZ  SIRA  DERMASON
+SEKER       411       105       0    44    125   185       184
+BARBUNYA    151       145       1   238      2    51        73
+BOMBAY        0         0     273     2      0     1         0
+CALI          0       194       1   548     66     3         2
+HOROZ        15        34       0    53    611   219        27
+SIRA        117         2       0     1    135   881       150
+DERMASON    131         0       0     0      1   102      1521
 
 Confusion matrix for k=7
-Predicted  BARBUNYA  BOMBAY  CALI  DERMASON  HOROZ  SEKER  SIRA
-Actual                                                         
-BARBUNYA        104       0   271        13    143      2   128
-BOMBAY           27       0    28        37    168      5    11
-CALI              2       0     0       240     70     34   468
-HOROZ             0       0     0       533      0     66    63
-SEKER           143     143   141       153     65    256   153
+          SEKER  BARBUNYA  BOMBAY  CALI  HOROZ  SIRA  DERMASON
+SEKER       387        89       0    45    148   195       190
+BARBUNYA    138       144       1   241      0    63        74
+BOMBAY        0         0     273     2      0     1         0
+CALI          0       194       1   551     62     4         2
+HOROZ         9        42       0    51    588   239        30
+SIRA        109         2       0     1    125   911       138
+DERMASON    149         1       0     0      0    89      1516
 
 Confusion matrix for k=11
-Predicted  BARBUNYA  BOMBAY  CALI  DERMASON  HOROZ  SEKER  SIRA
-Actual                                                         
-BARBUNYA         99       0   275        14    138      1   134
-BOMBAY           17       0    28        44    179      3     5
-CALI              0       0     0       237     75     35   467
-HOROZ             0       0     0       540      0     71    51
-SEKER           121     143   157       160     72    233   168
+          SEKER  BARBUNYA  BOMBAY  CALI  HOROZ  SIRA  DERMASON
+SEKER       343        83       0    46    154   218       210
+BARBUNYA    140       132       1   253      0    64        71
+BOMBAY        0         0     273     2      0     1         0
+CALI          0       179       1   574     57     1         2
+HOROZ         7        28       0    63    578   252        31
+SIRA         91         0       0     1    137   918       139
+DERMASON    146         0       0     0      1    81      1527
 
 Confusion matrix for k=13
-Predicted  BARBUNYA  BOMBAY  CALI  DERMASON  HOROZ  SEKER  SIRA
-Actual                                                         
-BARBUNYA         85       0   284        14    138      0   140
-BOMBAY           22       0    19        44    184      5     2
-CALI              0       0     0       238     76     33   467
-HOROZ             0       0     0       543      0     72    47
-SEKER           125     143   153       163     69    223   178
+          SEKER  BARBUNYA  BOMBAY  CALI  HOROZ  SIRA  DERMASON
+SEKER       316        89       0    42    150   230       227
+BARBUNYA    138       125       1   260      0    68        69
+BOMBAY        0         0     273     2      0     1         0
+CALI          0       176       1   577     57     1         2
+HOROZ         5        35       0    56    567   269        27
+SIRA         85         0       0     1    139   930       131
+DERMASON    157         0       0     0      1    76      1521
 
