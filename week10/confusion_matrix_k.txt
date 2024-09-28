@@ -1,0 +1,45 @@
+Confusion matrix for k=3
+Predicted  BARBUNYA  BOMBAY  CALI  DERMASON  HOROZ  SEKER  SIRA
+Actual                                                         
+BARBUNYA        107       0   263        13    162      1   115
+BOMBAY           24       0    36        30    157      4    25
+CALI              4       0     1       239     75     43   452
+HOROZ             0       0     0       522      1     60    79
+SEKER           143     143   150       113     50    296   159
+
+Confusion matrix for k=5
+Predicted  BARBUNYA  BOMBAY  CALI  DERMASON  HOROZ  SEKER  SIRA
+Actual                                                         
+BARBUNYA        105       0   268        14    154      4   116
+BOMBAY           24       0    35        32    161      5    19
+CALI              3       0     0       236     73     38   464
+HOROZ             0       0     0       535      0     65    62
+SEKER           143     143   148       145     57    265   153
+
+Confusion matrix for k=7
+Predicted  BARBUNYA  BOMBAY  CALI  DERMASON  HOROZ  SEKER  SIRA
+Actual                                                         
+BARBUNYA        104       0   271        13    143      2   128
+BOMBAY           27       0    28        37    168      5    11
+CALI              2       0     0       240     70     34   468
+HOROZ             0       0     0       533      0     66    63
+SEKER           143     143   141       153     65    256   153
+
+Confusion matrix for k=11
+Predicted  BARBUNYA  BOMBAY  CALI  DERMASON  HOROZ  SEKER  SIRA
+Actual                                                         
+BARBUNYA         99       0   275        14    138      1   134
+BOMBAY           17       0    28        44    179      3     5
+CALI              0       0     0       237     75     35   467
+HOROZ             0       0     0       540      0     71    51
+SEKER           121     143   157       160     72    233   168
+
+Confusion matrix for k=13
+Predicted  BARBUNYA  BOMBAY  CALI  DERMASON  HOROZ  SEKER  SIRA
+Actual                                                         
+BARBUNYA         85       0   284        14    138      0   140
+BOMBAY           22       0    19        44    184      5     2
+CALI              0       0     0       238     76     33   467
+HOROZ             0       0     0       543      0     72    47
+SEKER           125     143   153       163     69    223   178
+
